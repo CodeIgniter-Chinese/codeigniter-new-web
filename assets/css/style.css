@@ -28,7 +28,7 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
     margin-bottom: 100px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif, "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, "\5B8B\4F53";
     font-size: 16px;
     line-height: 1.5;
 }
@@ -40,20 +40,24 @@ body {
     font-weight: bold;
 }
 
-.nav > li {
-    min-width: 80px;
-    text-align: center;
-}
-
 .navbar-brand {
     float: left;
     padding: 15px 15px 15px 45px;
     font-size: 26px;
-    font-family: 'amblebold_italic';
+    font-family: "amblebold_italic";
     font-weight: normal;
-    line-height: 22px;
+    line-height: 18px;
     height: 50px;
-    background: url('../images/ci-logo-white.png') left top no-repeat;
+    background: url('/assets/images/ci-logo-white.png') left top no-repeat;
+}
+
+.navbar-brand strong {
+    font-family: "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, "\5B8B\4F53";
+    font-weight: normal;
+}
+.navbar-brand span {
+    display: inline-block;
+    width: 143px;
 }
 
 .glyphicon {
@@ -109,10 +113,11 @@ a .glyphicon {
     margin-bottom: 10px;
 }
 .features .feature h5 {
-    font-family: 'amblebold_italic';
+    font-family: "amblebold_italic", "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, "\5B8B\4F53";
     font-size: 19px;
     line-height: 20px;
     color: #404040;
+    font-weight: bold;
 }
 .features .feature p {
     font-size: 14px;
@@ -166,7 +171,7 @@ a .glyphicon {
     background-color: #3e3e3e;
 }
 .bcit50 {
-    background: url('../images/bcit-50.png') right top no-repeat;
+    background: url('/assets/images/bcit-50.png') right top no-repeat;
     background-size: 100px 44px;
 }
 
@@ -200,7 +205,7 @@ a .glyphicon {
 /* Content
 -------------------------------------------------- */
 .download h3 {
-    font-family: 'amblebold_italic';
+    font-family: "amblebold_italic", "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, "\5B8B\4F53";
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -208,10 +213,10 @@ a .glyphicon {
 .well {
     background-color: #F5F5F5;
 }
-.well hr { 
+.well hr {
     display: block; height: 1px;
     border: 0; border-top: 1px solid #E3E3E3;
-    margin: 1em 0; padding: 0; 
+    margin: 1em 0; padding: 0;
 }
 
 .well h3 {
@@ -226,7 +231,7 @@ a .glyphicon {
 }
 
 h2, h3 {
-    font-family: 'amblebold_italic';
+    font-family: "amblebold_italic", "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, "\5B8B\4F53";
 }
 
 .council img {padding-right:20px}
@@ -243,7 +248,7 @@ h2, h3 {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-    font-family: 'amblebold_italic';
+    font-family: "amblebold_italic", "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, "\5B8B\4F53";
     color: #fff;
     font-size: 42px;
     text-shadow: 0 -1px 0 rgba(0,0,0, 0.8);
@@ -259,7 +264,7 @@ h2, h3 {
    .jumbotron {
         padding-top: 10px;
         padding-bottom: 20px;
-    } 
+    }
 }
 
 /* Twitter widget
@@ -293,7 +298,7 @@ h2, h3 {
    http://www.bootply.com/126437
 --------------------------------------------------*/
 @media (min-width: 992px) {
-    .row-md-flex, .row-md-flex > div[class*='col-'] {  
+    .row-md-flex, .row-md-flex > div[class*='col-'] {
         display: -webkit-box;
         display: -moz-box;
         display: -ms-flexbox;
