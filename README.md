@@ -1,7 +1,8 @@
-# codeigniter-new-web
 CodeIgniter 中国新版官网开发项目
+===================================
 
-= 英文官网翻译进度
+英文官网翻译进度
+--------------------
 
  - [x]     页面: http://www.codeigniter.com/
  - [x]     页面: http://www.codeigniter.com/download
