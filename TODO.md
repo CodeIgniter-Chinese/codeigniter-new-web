@@ -1,8 +1,0 @@
- - [x]     http://www.codeigniter.com/
- - [x]     http://www.codeigniter.com/download
- - [ ]     http://www.codeigniter.com/docs
- - [ ]     http://www.codeigniter.com/community
- - [x]     http://www.codeigniter.com/contribute
- - [x]     http://www.codeigniter.com/help
- - [x]     http://www.codeigniter.com/help/legal
- - [ ]     http://www.codeigniter.com/help/about
