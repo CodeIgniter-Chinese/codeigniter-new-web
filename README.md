@@ -11,4 +11,4 @@ CodeIgniter 中国新版官网开发项目
  - [x]     页面: http://www.codeigniter.com/contribute
  - [x]     页面: http://www.codeigniter.com/help
  - [x]     页面: http://www.codeigniter.com/help/legal
- - [ ]     页面: http://www.codeigniter.com/help/about
+ - [x]     页面: http://www.codeigniter.com/help/about
