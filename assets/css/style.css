@@ -209,6 +209,7 @@ a .glyphicon {
     font-family: "amblebold_italic", "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, "\5B8B\4F53";
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .well {
@@ -230,8 +231,13 @@ a .glyphicon {
     color: #555555;
     background-color: #FCF8E3;
 }
-
-h2, h3 {
+h4.list-group-item-heading {
+    font-weight: bold;
+}
+p.list-group-item-text {
+    line-height: 1.5;
+}
+h1, h2, h3, h4 {
     font-family: "amblebold_italic", "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, "\5B8B\4F53";
 }
 
